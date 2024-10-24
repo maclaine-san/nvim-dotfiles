@@ -12,7 +12,8 @@ M.ui = {
 }
 
 M.base46 = {
-  theme = "dark_horizon",
+  theme = "gatekeeper",
+  integrations = { "dap", "hop" },
 
   -- hl_override = {
   -- 	Comment = { italic = true },
