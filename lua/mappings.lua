@@ -6,7 +6,7 @@ local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
-map("n", "<leader>e", ":NvimTreeToggle<CR>")
+map("n", "<leader>e", "<cmd>Telescope find_files hidden=true<cr>")
 map("n", "<leader>op", ":HopWord<CR>")
 map("n", "<leader>w", ":w<CR>")
 map("n", "<Esc>", "<cmd>nohlsearch<CR>")
