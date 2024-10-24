@@ -1,8 +1,4 @@
-- Base Template is NvChad neovim.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
-
-**Customizations and Plugins
+*** Mac's Customizations and Plugins
 - conform
 - treesitter
 - ts/js/tsx/jsx lsp support
@@ -10,6 +6,14 @@
 - avante for AI integration
 - codeium for ai autocompletion
 - hopword
+
+
+---------------------------------------
+
+- Base Template is NvChad neovim.
+- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
+- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+
 
 # Credits
 
