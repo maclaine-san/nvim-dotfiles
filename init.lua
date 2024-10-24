@@ -1,5 +1,30 @@
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46/"
 vim.g.mapleader = " "
+vim.g.relativenumber = true
+vim.g.maplocalleader = " "
+vim.opt.laststatus = 3
+vim.g.have_nerd_font = true
+vim.opt.number = true
+vim.opt.tabstop = 4
+vim.opt.relativenumber = true
+vim.opt.mouse = "a"
+vim.opt.showmode = false
+vim.opt.clipboard = "unnamedplus"
+vim.opt.breakindent = true
+vim.opt.undofile = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.signcolumn = "yes"
+vim.opt.updatetime = 250
+vim.opt.timeoutlen = 300
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+vim.opt.list = true
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.inccommand = "split"
+vim.opt.cursorline = false
+vim.opt.scrolloff = 10
+vim.opt.hlsearch = true
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
@@ -15,13 +40,13 @@ local lazy_config = require "configs.lazy"
 
 -- load plugins
 require("lazy").setup({
+
   {
     "NvChad/NvChad",
     lazy = false,
     branch = "v2.5",
     import = "nvchad.plugins",
   },
-
   { import = "plugins" },
 }, lazy_config)
 
