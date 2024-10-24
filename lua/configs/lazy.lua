@@ -1,6 +1,6 @@
 return {
   defaults = { lazy = false },
-  install = { colorscheme = { "nvchad" } },
+  install = { colorscheme = { "cyberdream" } },
 
   ui = {
     icons = {
