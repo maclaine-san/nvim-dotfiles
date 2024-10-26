@@ -12,7 +12,7 @@ M.ui = {
 }
 
 M.base46 = {
-  theme = "gatekeeper",
+  theme = "material-darker",
   integrations = { "dap", "hop" },
 
   -- hl_override = {
